@@ -3,8 +3,8 @@
 - [x] Add Link to Github from Avatar
 - [x] Use Web Safe Font
 - [x] Center Element to Page
-- [ ] Format Content
-- [ ] Add Icons to Social Media
+- [x] Format Content
+- [x] Add Icons to Social Media
 - [ ] Add Tailwind
 - [x] Add Shadow
 - [ ] Add Hover Effect
