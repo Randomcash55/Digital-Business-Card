@@ -6,7 +6,12 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    box-shadow: 5px 5px 10px #222;
+    box-shadow: 0px 0px 10px #222;
+    transition: transform 1.5s ease-in-out, box-shadow 1.5s ease-in-out;
+}
+
+.avatar:hover {
+    transform: rotateY(360deg) translate(0, -20px);
 }
 
 .card {
@@ -23,6 +28,13 @@ body {
 
     margin: 25lvh auto;
     padding: 30px;
+    
+    transition: transform 1.5s ease-in-out, box-shadow 1.5s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 50px 50px 10px #222;
 }
 
 #Identity > h1 {
@@ -44,6 +56,16 @@ body {
     text-align: center;
 }
 
+
+
+h1, h2, h3 {
+    transition: transform 1s ease-in-out;
+}
+
+h1:hover, h2:hover, h3:hover {
+    transform: scale(1.1, 1.1);
+}
+
 #Social-Icons {
     height: 100px;
     display: flex;
@@ -56,4 +78,17 @@ a {
     color: inherit;
     text-decoration: none;
     -webkit-text-stroke: inherit;
+}
+
+a:hover {
+    animation-name: shake;
+    animation-duration: 200ms;
+}
+
+@keyframes shake {
+    0% {rotate: 0deg;}
+    25% {rotate: -20deg;}
+    50% {rotate: 0deg;}
+    75% {rotate: 20deg;}
+    100% {rotate: 0deg;}
 }

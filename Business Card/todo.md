@@ -8,4 +8,4 @@
 - [ ] Add Tailwind
 - [x] Add Shadow
 - [ ] Add Hover Effect
-- [ ] Add Animations
+- [x] Add Animations
