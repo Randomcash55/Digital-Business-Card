@@ -7,5 +7,5 @@
 - [x] Add Icons to Social Media
 - [ ] Add Tailwind
 - [x] Add Shadow
-- [ ] Add Hover Effect
+- [x] Add Hover Effect
 - [x] Add Animations
