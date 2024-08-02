@@ -33,7 +33,6 @@ body {
 }
 
 .card:hover {
-    transform: scale(1.1, 1.1);
     box-shadow: 50px 50px 10px #222;
 }
 
@@ -56,13 +55,11 @@ body {
     text-align: center;
 }
 
-
-
 h1, h2, h3 {
     transition: transform 1s ease-in-out;
 }
 
-h1:hover, h2:hover, h3:hover {
+.card:hover, h1:hover, h2:hover, h3:hover {
     transform: scale(1.1, 1.1);
 }
 
