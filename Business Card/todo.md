@@ -5,7 +5,9 @@
 - [x] Center Element to Page
 - [x] Format Content
 - [x] Add Icons to Social Media
-- [ ] Add Tailwind
 - [x] Add Shadow
 - [x] Add Hover Effect
 - [x] Add Animations
+- [ ] Improve README.md
+- [ ] Get shadow working for Avatar
+- [ ] Add top left light shadow for more realistic effect
